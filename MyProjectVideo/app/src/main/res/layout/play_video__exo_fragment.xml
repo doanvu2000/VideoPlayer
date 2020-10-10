@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#000">
+
+<!--        <com.google.android.exoplayer2.ui.PlayerView-->
+<!--            android:id="@+id/player_view"-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="match_parent"-->
+<!--            android:layout_centerInParent="true"-->
+<!--            app:controller_layout_id="@layout/custom_controller"-->
+<!--            app:hide_on_touch="true"-->
+<!--            app:player_layout_id="@layout/exo_simple_player_view"-->
+<!--            app:resize_mode="fit"-->
+<!--            app:show_timeout="5000"-->
+<!--            app:use_controller="true" />-->
+
+        <ProgressBar
+            android:id="@+id/progess_bar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+<!--        <ImageView-->
+<!--            android:id="@+id/btn_fullscreen"-->
+<!--            android:layout_width="wrap_content"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_alignParentRight="true"-->
+<!--            android:layout_alignParentBottom="true"-->
+<!--            android:layout_margin="30dp"-->
+<!--            android:src="@drawable/ic_baseline_fullscreen_24" />-->
+    </RelativeLayout>
+
+</layout>
